@@ -1,0 +1,12 @@
+Running Jmeter TC through Commnad Prompt
+1) Open CMD in Administration Mode
+2) Change directory to bin folder present in Apache Jmeter(cd C:\Users\Dhawan\SandeshStudy\apache-jmeter-5.4.3\bin)
+3) Also Make sure that jmeter scripts are present in bin folder
+4) Run this command for running Jmeter TC:- jmeter -n -t "Thread Group Test Case.jmx" -l C:\Users\Dhawan\SandeshStudy\apache-jmeter-5.4.3\bin\Practice\Result.jtl
+5) -n stands for NON GUI Mode
+6) -t Stands for Test Plan
+7) Jmeter File TC name should be given
+8) -l stands for where Test result should be generated
+9) Give Directory where Result should be generaeted and resulr file name extension should be jtl
+
+
